@@ -1,11 +1,18 @@
 # @zoralabs/protocol-deployments
 
+## 0.7.3
+
+### Patch Changes
+
+- 27f588b: Deploy ZoraLimitOrderBook version 0.2.7 to Base mainnet
+  - Deploy ZoraLimitOrderBook version 0.2.7 to 0x7777777C783bAD88daCaf9A19E04238341E4497B (production)
+  - Deploy SwapWithLimitOrders version 0.2.7 to 0x77777777Eb762Cf86F634763e79d17dE44330887 (production)
+
 ## 0.7.2
 
 ### Patch Changes
 
 - 668bfa3c: Deploy limit orders version 0.2.6 to Base
-
   - Deploy ZoraLimitOrderBook version 0.2.6 to 0x7777777A5906659b67CE61511489Ae76DA63920f (production)
   - Deploy SwapWithLimitOrders version 0.2.6 to 0x7777777f62529Ea64736E24ad9ad3E4a39eB97c2 (production)
   - Deploy ZoraLimitOrderBook version 0.2.6 to 0xCe2C8032F85aB6a7148138F8a1235d2b17D53Dc5 (dev)
@@ -16,7 +23,6 @@
 ### Patch Changes
 
 - 9af2904a: Deploy limit order contracts version 0.2.5 to Base mainnet
-
   - Deploy ZoraLimitOrderBook version 0.2.5 to 0x77777774d70B1E9D6f705f99dA7c02e4E768dF09 (production)
   - Deploy SwapWithLimitOrders version 0.2.5 to 0x7777777A1F22faaB216f502B5D0BAAdE8c734F30 (production)
   - Deploy ZoraLimitOrderBook version 0.2.5 to 0xA017F02f8307759bf2c305eA84D5d23529937EfF (dev)
@@ -27,7 +33,6 @@
 ### Minor Changes
 
 - 5d656794: Add dev contract exports for Base mainnet development deployments
-
   - Add `devCoinFactoryAddress` and `devCoinFactoryABI` exports for dev Coin factory
   - Add `devZoraLimitOrderBookAddress` and `devZoraLimitOrderBookABI` exports for dev limit order book
   - Add `devZoraRouterAddress` and `devZoraRouterABI` exports for dev router
@@ -52,7 +57,6 @@
 
 - 131c719a: Deployed v2.2.0 of coins to Base
 - cdaa9d25: Fix critical security vulnerabilities with pnpm overrides
-
   - Added pnpm overrides to eliminate critical vulnerabilities
   - Fixed vitest RCE vulnerability (^2.1.9)
   - Fixed elliptic private key extraction vulnerability (^6.6.1)
@@ -286,7 +290,6 @@
 ### Patch Changes
 
 - 9cdd81ac: Deployed latest version of 1155 contracts, 1155 factory, preminter, and mints manager to:
-
   - blast
   - Optimism mainnet
   - Base
@@ -478,7 +481,6 @@
 
 - 4d79b49: Deployed to zora sepolia
 - b62e471: created new package `protocol-deployments` that includes the deployed contract addresses.
-
   - 1155-contracts js no longer exports deployed addresses, just the abis
   - premint-sdk imports deployed addresses from `protocol-deployments
 
